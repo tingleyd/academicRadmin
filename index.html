@@ -11,7 +11,7 @@
 
 
 
-<title>The Method of Direct Estimation</title>
+<title>AcademicRadmin</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -156,7 +156,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">sparsereg</a>
+      <a class="navbar-brand" href="index.html">academicRadmin</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -164,13 +164,13 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="about.html">About</a>
+  <a href="dep_admin.html">Departmental Administration</a>
 </li>
 <li>
-  <a href="functions.html">Functions</a>
+  <a href="course_analytics.html">Course Level Learning Analytics</a>
 </li>
 <li>
-  <a href="action.html">In Action</a>
+  <a href="admin_analytics.html">Administration Level Analytics</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -184,7 +184,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">The Method of Direct Estimation</h1>
+<h1 class="title toc-ignore">AcademicRadmin</h1>
 
 </div>
 
@@ -193,7 +193,13 @@ $(document).ready(function () {
 Introduction
 </h3>
 <p>
-We propose a method for estimating the causal effect of a treatment, binary or continuous, on an outcome in the presence of a high-dimensional vector of confounders. Rather than estimate an intermediate quantity, like a propensity score or selection model, we fit a tensor- spline regression model for the outcome and then directly estimate counterfactual quantities of interest. Estimation combines a marginal correlation screen and a new sparse Bayesian model that achieves optimal predictive bounds on the outcome and treatment effect. The method extends to instrumental variable, mediation, and sequential-g estimation. A simulation study and two applied examples illustrate the methods.
+Academic administration–e.g., managing the planning of courses, the advising of students, and the evaluation of technologies, is a data intensive process. To date, the vast majority of approaches to academic administration take one of two paths: a) large scale, closed source, system purchases from software vendors (e.g., ) or b) low technology solutions that entail large amounts of staff, and faculty, time engaging in manual processes.
+</p>
+<p>
+AcademicRadmin is a foray into changing parts of the academic administration ecosystem. We are guided by several principles. 1) We use open source tools to offer options, but do not denigrate existing vendor based solutions. 1a) We work with existing open source communities, especially R (hence academicRadmin), but Python based approaches are also just as welcome. Its more about the Radmin than the R. 3) We provide the code that runs anything we use. You will probably have to adapt it to your own institution/use case, but that is ok! 4) We explicitly encourage and foster student and administrative staff–rather than just IT professionals and faculty–to contribute and help drive conversations.
+</p>
+<p>
+In this website we collect a range of examples that cover use cases for different communities: students, teachers, departmental administrators, and beyond.
 </p>
 
 
